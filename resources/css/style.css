@@ -1,0 +1,251 @@
+body {
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify content: center;
+  align-items: center;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.justify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 960px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-content img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  padding: 0px;
+}
+
+ .company-name {
+  color: white;
+  font-size: 1.00rem;
+  font-family: helvetica;
+  margin: 0.66rem 1.0rem;
+  padding-top: 3px;
+}
+
+.moto-background {
+  background-image: url("../images/moto1.jpg");
+  width: 100%;
+  height: 25rem;
+}
+
+.floatbox-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 960px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.floatbox {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 26rem;
+  height: auto;
+  margin: 9.0rem 0rem 0rem 0rem;
+  padding: 0px;
+}
+
+h4.floatbox-content {
+  color: white;
+  font-size: 1.0rem;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 0rem;
+  margin: 2.0rem 0rem .5rem 3.0rem;
+}
+
+h2.floatbox-content {
+  color: white;
+  font-size: 2.0rem;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 0rem;
+  margin: 0rem 0rem 2.0rem 3.0rem;
+}
+
+.menu-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: firebrick;
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 960px;
+  margin: .75rem 0rem;
+  padding: 0rem;
+}
+
+a {
+  font-family: helvetica;
+  color: white;
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin: 0.75rem 0rem;
+  padding: 0rem;
+}
+
+.content-catalog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  height: auto;
+  margin: 3.0rem;
+  padding: 0rem;
+}
+
+.ad-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  padding: 0rem;
+  border: 4px solid black;
+}
+
+.ad-box img {
+  height: 9.0rem;
+
+  padding: 0rem;
+  margin: 2rem 0rem;
+}
+
+.box-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+
+.box-banner h4 {
+  color: white;
+  font-family: helvetica;
+  font-size: 1.0rem;
+  padding: .5rem 0rem;
+  margin-top: .2rem;
+}
+
+.classified-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.classified-stack {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  margin: 3rem 0rem 4rem 0rem;
+}
+
+.classified-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 3.00rem;
+  background-color: black;
+  padding: 0rem;
+  margins: 0rem
+}
+
+h3.tag {
+    color: white;
+    font-size: 1.0rem;
+    font-family: helvetica;
+    margin: 0rem 0rem 0rem 2.0rem;
+    padding: 0rem;
+    margin: 1rem 2rem;
+  }
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0rem 0rem;
+  margins: 0rem 0rem;
+}
+
+h3.stats {
+  color: black;
+  font-size: 1.0rem;
+  font-family: helvetica;
+  margin: 0rem;
+  padding-top: .35rem;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5.0rem;
+  width: 100%;
+  background-color: black;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 960px;
+  color: white;
+  font-size: 1.0rem;
+  font-family: helvetica;
+  margin: 0rem;
+  padding: 0rem;
+}
